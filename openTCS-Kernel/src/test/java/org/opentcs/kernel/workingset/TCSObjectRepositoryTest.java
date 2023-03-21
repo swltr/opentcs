@@ -22,7 +22,7 @@ import org.opentcs.data.model.Path;
 import org.opentcs.data.model.Point;
 
 /**
- * Unit tests for {@link TCSObjectRepository}. 
+ * Unit tests for {@link TCSObjectRepository}.
  *
  * @author Stefan Walter (Fraunhofer IML)
  */
