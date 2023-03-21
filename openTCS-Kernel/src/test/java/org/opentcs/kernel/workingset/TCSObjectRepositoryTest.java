@@ -43,7 +43,7 @@ public class TCSObjectRepositoryTest {
     pool.addObject(point1);
     pool.addObject(point2);
 
-    assertThat(pool.getObjectOrNull(Point.class, "Point-00001"), is(point1));
+    assertThat(pool.getObjectOrNull(Point.class, "Point-00003"), is(point1));
     assertThat(pool.getObjectOrNull(Point.class, "Point-00002"), is(point2));
   }
 
